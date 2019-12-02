@@ -24,10 +24,10 @@ result3 = solution(ans_query3)
 
 def printAns(ans):
     if ans == result1 or ans == result2:
-        for r in ans:
+        for r in range(len(ans)):
             print(str(ans[r][0]) + " - " + str(ans[r][1]) + " Views")
     else:
-        for r in ans:
+        for r in range(len(ans)):
             print(str(ans[r][0]) + " - " + str(ans[r][1]) + "% errors")
     print("\n")
 
