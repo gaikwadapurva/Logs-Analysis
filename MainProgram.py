@@ -32,7 +32,7 @@ result3 = solution(ans_query3)
 def printAns(ans):
     if ans == result1 or ans == result2:
         for r in ans:
-            output1 = '{name} - {calc} Views'.format(title=r[0], calc=r[1])
+            output1 = '{name} - {calc} Views'.format(name=r[0], calc=r[1])
             print(output1)
         print("\n")
     else:
